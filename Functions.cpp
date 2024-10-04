@@ -28,6 +28,7 @@ int main()
     int y1;
     int x2;
     int y2;
+
     cout << "Enter x1: ";
     cin >> x1;
     cout << "Enter y1: ";
@@ -35,7 +36,7 @@ int main()
     cout << "Enter x2: ";
     cin >> x2;
     cout << "Enter y2: ";
-    cin >> y2;\
+    cin >> y2;
 
     cout << "Radius: ";
     cout << calcRadius(x1, y1, x2, y2) << endl;
